@@ -10,8 +10,8 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "~0.16.1",
-    "@stencil/router": "~0.3.1",
+    "@stencil/core": "~0.16.2",
+    "@stencil/router": "^0.3.2",
     "rollup-plugin-node-globals": "^1.4.0"
   },
   "license": "MIT"
