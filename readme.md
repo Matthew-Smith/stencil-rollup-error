@@ -23,3 +23,8 @@ To build the app and see the error output:
 ```bash
 npm run build
 ```
+
+Or to run with debug output:
+```bash
+./node_modules/@stencil/core/bin/stencil build --debug
+```
