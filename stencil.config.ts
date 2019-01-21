@@ -1,5 +1,6 @@
 import { Config } from '@stencil/core';
 import globals from 'rollup-plugin-node-globals';
+import builtins from 'rollup-plugin-node-builtins';
 
 // https://stenciljs.com/docs/config
 
@@ -15,5 +16,6 @@ export const config: Config = {
   ],
   plugins: [
     globals(),
+    builtins(),
   ]
 };
