@@ -10,12 +10,13 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "0.18.0",
-    "@stencil/router": "^0.3.2"
+    "@stencil/core": "^1.0.0-alpha.14",
+    "@stencil/router": "^0.3.4-2"
   },
   "license": "MIT",
   "devDependencies": {
     "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-node-globals": "^1.4.0"
+    "rollup-plugin-node-globals": "^1.4.0",
+    "workbox-build": "3.4.1"
   }
 }
