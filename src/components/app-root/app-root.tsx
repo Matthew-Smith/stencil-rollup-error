@@ -1,11 +1,19 @@
 import { Component, h } from '@stencil/core';
 import '@stencil/router'
+
+import * as bufferUtil from 'bufferutil';
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
   shadow: true
 })
 export class AppRoot {
+
+  init() {
+    const source = 'hello';
+    const mask = 'abc';
+    bufferUtil.mask(source, mask, source, 0, source.length);
+  }
 
   render() {
     return (
