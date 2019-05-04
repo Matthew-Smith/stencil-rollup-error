@@ -10,9 +10,11 @@ import * as bufferUtil from 'bufferutil';
 export class AppRoot {
 
   init() {
-    const source = 'hello';
-    const mask = 'abc';
-    bufferUtil.mask(source, mask, source, 0, source.length);
+    if (bufferUtil) {
+      console.log('buffer util exists');
+    } else {
+      console.log(`buffer util doesn't exist, but at least it compiled`);
+    }
   }
 
   render() {
