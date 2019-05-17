@@ -10,7 +10,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "1.0.0-alpha.19",
+    "@stencil/core": "^1.0.0-beta.1",
     "@stencil/router": "^0.3.4-2",
     "bufferutil": "^4.0.1"
   },
