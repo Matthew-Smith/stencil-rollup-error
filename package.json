@@ -11,16 +11,10 @@
   },
   "dependencies": {
     "@stencil/core": "^1.0.0-beta.5",
-    "@stencil/router": "^1.0.0-1",
-    "bufferutil": "^4.0.1"
+    "@stencil/router": "^1.0.0-1"
   },
   "license": "MIT",
   "devDependencies": {
-    "rollup-plugin-node-builtins": "https://github.com/Matthew-Smith/rollup-plugin-node-builtins/raw/master/release/rollup-plugin-node-builtins-2.1.4.tgz",
-    "rollup-plugin-node-globals": "^1.4.0",
     "workbox-build": "4.3.1"
-  },
-  "resolutions": {
-    "@stencil/core/**/rollup-plugin-node-builtins": "https://github.com/Matthew-Smith/rollup-plugin-node-builtins/raw/master/release/rollup-plugin-node-builtins-2.1.4.tgz"
   }
 }

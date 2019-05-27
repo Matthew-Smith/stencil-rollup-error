@@ -1,21 +1,12 @@
 import { Component, h } from '@stencil/core';
 import '@stencil/router'
 
-import * as bufferUtil from 'bufferutil';
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
   shadow: true
 })
 export class AppRoot {
-
-  init() {
-    if (bufferUtil) {
-      console.log('buffer util exists');
-    } else {
-      console.log(`buffer util doesn't exist, but at least it compiled`);
-    }
-  }
 
   render() {
     return (

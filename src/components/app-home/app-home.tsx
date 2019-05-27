@@ -7,6 +7,18 @@ import { Component, h } from '@stencil/core';
 })
 export class AppHome {
 
+  componentWillLoad() {
+    console.log('componentWillLoad')
+  }
+  
+  componentDidLoad() {
+    console.log('componentDidLoad')
+  }
+
+  componentDidUnload() {
+    console.log('componentDidUnload')
+  }
+
   render() {
     return (
       <div class='app-home'>
