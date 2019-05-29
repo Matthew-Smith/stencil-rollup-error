@@ -9,7 +9,7 @@ import * as bufferUtil from 'bufferutil';
 })
 export class AppRoot {
 
-  init() {
+  componentWillLoad() {
     if (bufferUtil) {
       console.log('buffer util exists');
     } else {
