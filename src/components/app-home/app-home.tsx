@@ -10,7 +10,7 @@ export class AppHome {
   componentWillLoad() {
     console.log('componentWillLoad')
   }
-  
+
   componentDidLoad() {
     console.log('componentDidLoad')
   }
